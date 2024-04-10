@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    color: 	#b0b3b8;
+}
+
+body {
+    background-color:#18191a;
+    
+}
+
+/* topo */
+header {
+    position: fixed;
+    background-color:#242526;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+
+}
+
+.header-left {
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.header-right {
+    background-color: purple;
+    width: 200px;
+}
+
+.img-logo{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.icons-header {
+    padding-top: 1px;
+    width: 680px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.hd-icon {
+    width: 129.59px;
+    height: 56px;
+   
+}
+.hd-icon:hover{
+    background-color: red;
+}
+.ps{
+    width: 40px;
+    height: 40px;
+}
+
+/* parte esquerda  */
+
+.btns-left {
+    margin-top: 63px;
+    position: fixed;
+    background-color: #18191a;
+    color: white;
+    width: 280px;
+    height: 1020px;
+}
+
+.left-buttons {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 3px;
+
+}
+
+.lft {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    background-color: aquamarine;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+/* meio principal */
+
+main {
+    padding-top: 70px;
+    width: 680px;
+    height: 3000px;
+}
+
+.main-content {
+   
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* stories */
+.duo-select {   
+    background-color: 	#242526;
+    display: flex;
+    height: 72px;
+    width: 680;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+;
+}
+.opt-1, .opt-2 {
+    height: 50px;
+    width: 350px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.opt-1:hover, .opt-2:hover {
+  
+    cursor: pointer;
+}
+
+
+
+.stories{
+    width: 680px;
+    height: 301px;
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    background-color: 	#242526;
+    justify-content: space-around;
+    margin-bottom: 20px;
+ 
+}
+
+.story {
+    
+    height: 200px;
+    width: 112px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* pensando */
+
+.profile-icon{
+    background-color: aquamarine;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+}
+.thinking {
+    width: 680px;
+    height: 120px;
+    padding-top:20px ;
+    border-radius: 12px;
+    background-color: #242526;
+   
+}
+.tk-p {
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    border-radius: 12px;
+    gap: 2px;
+
+   
+}
+.think-list {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.tk-l {
+    display: flex;
+    align-items: center;
+}
+
+
+/* config posts Parte superior */
+
+.post {
+    margin-top: 12px;
+    padding-top: 8px;
+    width: 680px;
+    height: 1100px;
+    background-color: #242526;
+}
+.top-info {
+    padding-top:10px;
+    display: flex;
+    height: 70px;
+    width: 100%;
+
+
+}
+
+.img-plus {
+    padding: 10px 0px 0px 12px;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.group-icon{
+ 
+    background-color: red;
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+   
+}
+
+.user-icon{
+    
+    background-color: aqua;
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
+    margin: -20px 0px 0px 15px;
+
+   
+}
+.side-info {
+ 
+    
+    margin-left: 18px;
+    width: 493px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+    
+}
+
+.group-name{
+    width: 300px;
+    height: 22px;
+    background-color:#fff;
+}
+
+.subtitle-group{
+   
+    width: 200px;
+    height: 16px;
+  
+}
+
+.ic-p{
+    background-color: rebeccapurple;
+    width:70px;
+    height: 40px;
+}
+.post-tittle{
+  
+    margin-left: 12px;
+    width: 500px;
+    height: 20px;
+}
+
+/* parte da imagem do post */
+
+.post-image {
+    
+    width: 680px;
+    height: 720px;
+    /* background-color: green; */
+    background-image: url(https://i.pinimg.com/736x/a7/3d/34/a73d347bcf2efd2ecc6dd83a33944fc3.jpg);
+    background-size: cover;
+}
+.post-image:hover{
+    cursor: pointer;
+}
+
+
+/* primeira linha pós imagem, emojis/comentarios */
+.like-line {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    width: 680px;
+    height: 43px;
+    
+}
+.like-icons{
+  
+    width: 499px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+   
+}
+.lk {
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+   
+
+}
+.lk:hover{
+    cursor: pointer;
+}
+.cmt-bt{
+    display: flex;
+    align-items: center;
+    color: #b0b3b8;
+    height: auto;
+    width: auto;
+
+
+}
+.cmt-bt:hover{
+    cursor: pointer;
+}
+.i-cfg{
+    display: flex;
+    align-items: center;
+   
+   
+ }
+
+.i-size{
+   margin-right: px;
+    width: 20px;
+    height: 20px;
+  
+   
+ }
+
+
+/* .like{
+
+
+}
+.love{
+    
+
+}
+.haha{
+    
+} */
+
+
+/* parte de baixo do post */
+
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: auto;
+    margin-bottom: 12px;
+    
+}
+
+.bottom-post {
+    height: 44px;
+    
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;  
+}
+
+.cmt-pro{
+    margin-top: 20px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+  
+}
+.comment-box{
+   
+    
+    border-radius: 12px;
+    width: 575px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    color: #b0b3b8;
+    background-color: #3a3b3c;
+   
+}
+
+
+
+
+
+
+
+
+/* contatos parte direita */
+
+.contacts {
+    padding: 7px;
+    background-color: #18191a;
+    width: 280px;
+    height: 1020px;
+    color: #fff;
+    
+}
+
+.u-logo {
+    background-color: aquamarine;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    
+
+}
+.cnt{
+    display: flex;
+    flex-direction: column
+
+}
+.cnt-list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.ok {
+    position: fixed;
+    margin-top: 63px;
+    margin-left: 1500px;
+
+}
+
+
+/* icones */
+/* 
+.profile-icon {
+    
+
+} */
+.profile-icon:hover {
+    cursor: pointer;
+}
